@@ -16,9 +16,9 @@ spec:
         image: postgres:latest
         env:
         - name: POSTGRES_DB
-          value: hoagkub_psql
+          value: lzl_psql
         - name: POSTGRES_USER
-          value: hoagkub_u
+          value: lzl_u
         - name: POSTGRES_PASSWORD
           value: hcupgoan
         ports:
