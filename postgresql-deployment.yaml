@@ -16,11 +16,11 @@ spec:
         image: postgres:latest
         env:
         - name: POSTGRES_DB
-          value: lzl_psql
+          value: mydatabase
         - name: POSTGRES_USER
-          value: lzl_u
+          value: myuser
         - name: POSTGRES_PASSWORD
-          value: hcupgoan
+          value: mypassword
         ports:
         - containerPort: 5432
         volumeMounts:
