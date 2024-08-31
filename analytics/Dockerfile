@@ -1,5 +1,8 @@
 FROM python:3.10-slim-buster
 
+ARG DB_USERNAME=$DB_USERNAME
+ARG DB_PASSWORD=$DB_PASSWORD
+
 COPY . /app
 
 WORKDIR /app
